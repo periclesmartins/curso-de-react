@@ -1,7 +1,16 @@
+import AnotherComponent from "./AnotherComponent";
+
 function FirstComponent() {
+
+  //comentário.
+  const name = "Péricles"
   return (
-    <div>
+    <div className='firstcomponent'>
+        {/*comentário no jsx*/}
       <p>Primeiro Componente</p>
+      {2+2}
+      <p>Nome: {name}</p>
+      <AnotherComponent/>
     </div>
   );
 }
